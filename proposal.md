@@ -8,8 +8,8 @@
 * 50449 - Orsi, Dante
 
 ### Repositorios
-* Backend: https://github.com/LucasSanPedro18/DSW-TP
-* Frontend:
+* [Backend App](https://github.com/LucasSanPedro18/DSW-TP)
+* Frontend App
 
 ## Tema
 ### Descripción
@@ -26,8 +26,8 @@ Los perfiles de usuario son avisados de los eventos mediante la página principa
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Categoría<br>2. CRUD Cuenta<br>3. CRUD Localidad|
-|CRUD dependiente|1. CRUD Evento {depende de} CRUD Categoría,CRUD Organizador y CRUD Ubicación<br>2. CRUD Ubicación {depende de} CRUD Localidad|
+|CRUD simple|1. CRUD Cuenta<br>2. CRUD Pais<br>3. CRUD Tipo Entrada<br>4. Categoría|
+|CRUD dependiente|1. CRUD Localidad {depende de} CRUD Pais<br>2. CRUD Ubicación {depende de} CRUD Localidad|
 |Listado<br>+<br>detalle| 1. Listado de eventos filtrado por rango de fecha, localidad y categoría muestra nombre, fecha, foto y ubicación => detalle CRUD Evento<br> 2. Listado de entradas filtrado por rango de fecha, muestra nombre de evento, fecha de evento, foto de evento => detalle muestra ubicación de evento y datos completos de entrada junto a su tipo de entrada|
 |CUU/Epic|1. Crear Perfil<br>2. Crear evento|
 
@@ -35,8 +35,8 @@ Regularidad:
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Categoría<br>2. CRUD Cuenta<br>3. CRUD Localidad<br>4. CRUD Provincia<br>5. CRUD País<br>6. CRUD Valoración<br>7. CRUD TipoEntrada<br>8. CRUD Entrada|
-|CUU/Epic|1. Crear Perfil<br>2. Crear evento<br>3. Comprar entrada<br>4. Crear tipo de entrada|
+|CRUD |1. CRUD Categoría<br>2. CRUD Cuenta<br>3. CRUD Localidad<br>4. CRUD País<br>5. CRUD Valoración<br>6. CRUD TipoEntrada<br>7. CRUD Entrada|
+|CUU/Epic|1. Crear Evento<br>2. Comprar entrada<br>3. Subir valoración<br>|
 
 
 ### Alcance Adicional Voluntario
