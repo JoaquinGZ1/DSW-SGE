@@ -8,6 +8,8 @@
 * 50449 - Orsi, Dante
 
 ### Repositorios
+* Backend: https://github.com/LucasSanPedro18/DSW-TP
+* Frontend:
 
 ## Tema
 ### Descripción
