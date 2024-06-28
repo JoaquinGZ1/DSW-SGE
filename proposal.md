@@ -9,7 +9,7 @@
 
 ### Repositorios
 * [Backend App](https://github.com/LucasSanPedro18/DSW-TP)
-* Frontend App
+* [Frontend App](https://github.com/DanteOrsi/DSW-TP-FE)
 
 ## Tema
 ### Descripción
