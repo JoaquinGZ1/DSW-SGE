@@ -26,17 +26,17 @@ Los perfiles de usuario son avisados de los eventos mediante la página principa
 Regularidad:
 |Req|Detalle|
 |:-|:-|
-|CRUD simple|1. CRUD Cuenta<br>2. CRUD Pais<br>3. CRUD Tipo Entrada<br>4. Categoría|
-|CRUD dependiente|1. CRUD Localidad {depende de} CRUD Pais<br>2. CRUD Ubicación {depende de} CRUD Localidad|
-|Listado<br>+<br>detalle| 1. Listado de eventos filtrado por rango de fecha, localidad y categoría muestra nombre, fecha, foto y ubicación => detalle CRUD Evento<br> 2. Listado de entradas filtrado por rango de fecha, muestra nombre de evento, fecha de evento, foto de evento => detalle muestra ubicación de evento y datos completos de entrada junto a su tipo de entrada|
-|CUU/Epic|1. Crear Perfil<br>2. Crear evento|
+|CRUD simple|1. CRUD Usuario<br>2. CRUD Organizador<br>3. CRUD Evento<br>4. CRUD Categoria|
+|CRUD dependiente|1. CRUD Evento depende de CRUD Categoria|
+|Listado<br>+<br>detalle| 1. Listado de eventos ordenado por fecha o categorías muestra nombre, descripción, categoría, fecha, cupo y categorias<br> 2. Listado de categorias ordenado por cantidad de eventos muestra nombre, descripción y cantidad de eventos creados|
+|CUU/Epic|1. Crear organizador<br>2. Crear usuario<br>3. Crear evento|
 
 
 Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
-|CRUD |1. CRUD Categoría<br>2. CRUD Cuenta<br>3. CRUD Localidad<br>4. CRUD País<br>5. CRUD Valoración<br>6. CRUD TipoEntrada<br>7. CRUD Entrada|
-|CUU/Epic|1. Crear Evento<br>2. Comprar entrada<br>3. Subir valoración<br>|
+|CRUD |1. CRUD Pais<br>2. CRUD Localidad<br>3. CRUD Ubicación<br>4. CRUD Entrada<br>5. CRUD TipoEntrada<br>6. CRUD Valoración|
+|CUU/Epic|1. Crear categoria<br>2. Comprar entrada<br>3. Subir valoración<br>|
 
 
 ### Alcance Adicional Voluntario
@@ -46,5 +46,5 @@ Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |Listados |1. Eventos a los que asisten amigos del usuario muestra nombre de amigo, foto de perfil de amigo, nombre de evento, fecha de evento, foto de evento y ubicación de evento => detalle CRUD Evento<br> 2. Listado de usuario filtrado por nombre de usuario muestra nombre de usuario, foto de perfil => detalle CRUD Usuario|
-|CUU/Epic|1. Crear Categoría<br>2. Cancelación de entrada<br>3. Crear ubicación<br>4. Hacer valoración<br>5. Asistir a evento<br>6. Editar perfil<br>7. Agregar amigo<br>8. Interactuar en un grupo de evento<br>9. Comunicarse via mensaje directo con otra Cuenta|
+|CUU/Epic|1. Cancelación de entrada<br>2. Crear ubicación<br>3. Hacer valoración<br>4. Asistir a evento<br>5. Editar perfil<br>6. Agregar amigo<br>7. Interactuar en un grupo de evento<br>8. Comunicarse via mensaje directo con otra Cuenta|
 |Otros|1. Envío de recordatorio de eventos<br>2. Envio de eventos que puedan interesar al usuario|
