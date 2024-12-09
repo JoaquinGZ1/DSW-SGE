@@ -28,7 +28,7 @@ Regularidad:
 |:-|:-|
 |CRUD simple|1. CRUD Usuario<br>2. CRUD Organizador<br>3. CRUD Evento<br>4. CRUD Categoria|
 |CRUD dependiente|1. CRUD Evento depende de CRUD Categoria|
-|Listado<br>+<br>detalle| 1. Listado de eventos ordenado por fecha o categorías muestra nombre, descripción, categoría, fecha, cupo y categorias<br> 2. Listado de categorias ordenado por cantidad de eventos muestra nombre, descripción y cantidad de eventos creados|
+|Listado<br>+<br>detalle| 1. Listado de eventos ordenado por fecha o categorías que muestra nombre, descripción, fecha, cupo y categorias.<br> 2. Listado de categorias ordenado por cantidad de eventos que muestra nombre, descripción y cantidad de eventos creados|
 |CUU/Epic|1. Crear organizador<br>2. Crear usuario<br>3. Crear evento|
 
 
@@ -46,5 +46,5 @@ Adicionales para Aprobación
 |Req|Detalle|
 |:-|:-|
 |Listados |1. Eventos a los que asisten amigos del usuario muestra nombre de amigo, foto de perfil de amigo, nombre de evento, fecha de evento, foto de evento y ubicación de evento => detalle CRUD Evento<br> 2. Listado de usuario filtrado por nombre de usuario muestra nombre de usuario, foto de perfil => detalle CRUD Usuario|
-|CUU/Epic|1. Cancelación de entrada<br>2. Crear ubicación<br>3. Hacer valoración<br>4. Asistir a evento<br>5. Editar perfil<br>6. Agregar amigo<br>7. Interactuar en un grupo de evento<br>8. Comunicarse via mensaje directo con otra Cuenta|
+|CUU/Epic|1. Cancelación de entrada<br>2. Crear ubicación<br>3. Hacer valoración<br>4. Asistir a evento<br>5. Editar perfil<br>6. Agregar amigo<br>7. Interactuar en un grupo de evento<br>8. Comunicarse via mensaje directo con otra cuenta|
 |Otros|1. Envío de recordatorio de eventos<br>2. Envio de eventos que puedan interesar al usuario|
